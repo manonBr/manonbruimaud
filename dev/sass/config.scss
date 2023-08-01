@@ -1,0 +1,56 @@
+// COLORS
+    // GENERALS
+
+    $black: #000000;
+    $white: #ffffff;
+
+    $grey100: #383434;
+
+    // THEMES (LIGHT & DARK)
+
+    $themes: (
+        colorBackground: (
+            darkTheme: #0a060b,
+            lightTheme: $white,
+        ),
+        colorBase: (
+            darkTheme: $white,
+            lightTheme: $black,
+        ),
+        colorPrimary: (
+            darkTheme: #D91DEA,
+            lightTheme: #82278A,
+        ),
+        colorSecondary: (
+            darkTheme: #b5b137,
+            lightTheme: #f8acff,
+        )
+    );
+
+    @mixin styles($mode) {
+        @each $key, $map in $themes {
+            @each $prop, $color in $map {
+                @if $prop == $mode {
+                    --#{$key}: #{$color};
+                }
+            }
+        }
+    }
+
+    .dark-mode {
+        @include styles("darkTheme");
+    }
+    .light-mode {
+        @include styles("lightTheme");
+    }
+
+// FONTS
+$title: 'Tomorrow', sans-serif;
+$body: 'Raleway', sans-serif;
+
+// BREAKPOINTS
+$xSmall : 480px;
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$xLarge: 1160px;

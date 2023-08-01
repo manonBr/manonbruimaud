@@ -1,0 +1,335 @@
+/*
+ * MIN-WIDTH : 576px
+ */
+@media (min-width:$small) {
+    // PORTFOLIO
+    .portfolio {
+        &__wrapper {
+            margin-top: 3rem;
+        }
+    }
+
+    // TECHNOS
+    .technos {
+        &__wrapper {
+            grid-template-columns: repeat(5,1fr);
+        }
+    }
+}
+
+/*
+ * MAX-WIDTH : 768px
+ */
+@media (max-width:$medium) {
+    // PORTFOLIO
+    .portfolio__item:nth-child(4n+1):nth-last-child(-n+4),
+    .portfolio__item:nth-child(4n+1):nth-last-child(-n+4) ~ .portfolio__item {
+        border-bottom: transparent;
+    }
+}
+
+/*
+ * MIN-WIDTH : 768px
+ */
+@media (min-width:$medium) {
+    body {
+        cursor: none;
+    }
+    a,
+    button {
+        cursor: none;
+    }
+    .shidden {
+        display: initial;
+    } 
+    .section {
+        margin: 10rem 0;
+        &__title {
+            font-size: 4rem;
+        }
+    }
+    .container {
+        padding: 0 3rem;
+    }
+
+    #cursor {
+        background-color: var(--colorPrimary);
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 100;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+        mix-blend-mode: difference;
+        transition: width 200ms ease-in, height 200ms ease-in;
+        &.cursor--hovered {
+          width: 40px;
+          height: 40px;
+          transition: width 200ms ease-in, height 200ms ease-in;
+        }
+    }
+    .btn {
+        display: inline-block;
+        &:hover,
+        &:active,
+        &:focus {
+            &::after {
+            transform: rotate(-7deg);
+            }
+        }
+    }
+    
+    // NAVIGATION
+    nav {
+        display: grid;
+        grid-template-columns: 70px 5fr 120px;
+        background-color: rgba(10, 6, 11, 0.9);
+        align-items: center;
+    }
+    .logo {
+        padding: 0.5rem;
+        background: none;
+        &__container {
+            max-width: initial;
+            max-height: initial;
+        }
+    }
+    .menu {
+        position: relative;
+        left: 0;
+        text-align: right;
+        margin-right: 92px;
+        background: none;
+        height: min-content;
+        padding: 0;
+        &__item {
+            display: inline-block;
+            padding: 0 1rem;
+        }
+    }
+    .links {
+        top: 0;
+    }
+    #menu__hamburger {
+        display: none;
+    }
+    .hideNav,
+    .showNav {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -o-animation: none;
+        animation: none;
+    }
+    .links {
+        position: relative;
+        margin-left: 1rem;
+    }
+
+    // HEADER
+
+    .header {
+        padding: 0 1.5rem;
+        &__title {
+            font-size: 5rem;
+            line-height: 4.5rem;
+        }
+        &__subttl {
+            font-size: 2rem;
+            height: 2rem;
+        }
+        &__title,
+        &__subttl {
+            margin-left: 0;
+        }
+        &__legend {
+            max-width: 60%;
+        }
+        .btn {
+            margin-top: 1.5rem;
+        }
+        .btn:first-of-type {
+            margin-right: 1rem;
+        }
+    }
+
+    // PORTFOLIO
+
+    .portfolio {
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 7fr;
+            padding: 5rem 3rem;
+        }
+        &__wrapper {
+            grid-template-columns: 1fr auto 1fr auto 1fr;
+            margin-top: 0;
+        }
+        &__filter {
+            margin-bottom: 3rem;
+            justify-content: left;
+        }
+        &__item {
+            &:nth-child(4n) {
+                display: block;
+            }
+            &:nth-child(6n) {
+                display: none;
+            }
+        }
+        .section__title {
+            writing-mode: sideways-lr;
+            text-align: center;
+        }
+    }
+    .portfolio__item:nth-child(6n+1):nth-last-child(-n+6),
+    .portfolio__item:nth-child(6n+1):nth-last-child(-n+6) ~ .portfolio__item {
+        border-bottom: transparent;
+    }
+
+    // TECHNOS
+
+    .technos {
+        &__subttl {
+            font-size: 2rem;
+        }
+    }
+
+    // CONTACT
+
+    .contact {
+        margin: 0;
+    }
+}
+
+/*
+ * MIN-WIDTH : 992px
+ */
+@media (min-width:$large) {
+    .section {
+        &__title {
+            font-size: 4.5rem;
+        }
+    }
+
+    // NAVIGATION
+
+    nav {
+        font-size: 1.1rem;
+        grid-template-columns: 90px 5fr 120px;
+    }
+    .logo {
+        img {
+            max-height: 60px;
+        }
+    }
+
+    // HEADER
+
+    .header {
+        &__title {
+            font-size: 6rem;
+            line-height: 5.5rem;
+        }
+    }
+    .bubble {
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        &--primary {
+            background-color: var(--colorPrimary);
+        }
+        &--secondary {
+            background-color: var(--colorSecondary);
+            
+        }
+        &--xsmall {
+            height: 50px;
+            width: 50px;
+            filter: blur(25px);
+        }
+        &--small {
+            height: 120px;
+            width: 120px;
+            filter: blur(50px);
+        }
+        &--medium {
+            height: 210px;
+            width: 210px;
+            filter: blur(80px);
+        }
+        &--big {
+            height: 300px;
+            width: 300px;
+            filter: blur(130px);
+        }
+    }
+
+    // PRESENTATION
+
+    .presentation {
+        &__img {
+            grid-row: 1 / span 2;
+        }
+        &__title {
+            margin: 2rem 0;
+        } 
+        &__description {
+            grid-column: 2 / span 1;
+            padding-left: 2rem;
+        }
+    }
+
+    // TECHNOS
+
+    .technos {
+        &__wrapper {
+            grid-template-columns: repeat(7, 1fr);
+            margin-top: 3rem;
+            margin-left: 4rem;
+            &:first-of-type {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+/*
+ * MIN-WIDTH : 1160px
+ */
+@media (min-width:$xLarge) {
+    .container {
+        max-width: 1060px;
+        margin: auto;
+    }
+
+    // HEADER
+
+    .header {
+        &__title {
+            font-size: 7rem;
+            line-height: 6.5rem;
+            margin-left: -0.5rem;
+        }
+        &__subttl {
+            margin-left: 0;
+        }
+        &__legend {
+            max-width: 40%;
+        }
+    }
+
+    // TECHNOS
+
+    .technos {
+        &__wrapper {
+            margin-left: 6rem;
+        }
+        &__subttl {
+            font-size: 3rem;
+            left: -4rem;
+        }
+    }
+}
