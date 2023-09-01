@@ -180,7 +180,8 @@
             }
         }
         .section__title {
-            writing-mode: sideways-lr;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
             text-align: center;
         }
     }

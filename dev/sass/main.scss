@@ -581,9 +581,9 @@ nav {
   &__subttl {
     position: absolute;
     text-transform: uppercase;
-    writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
     left: -2.5rem;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate(180deg);
     top: 50%;
     font-size: 1.8rem;
     color: var(--colorBase);
@@ -612,11 +612,9 @@ nav {
         background: linear-gradient(250deg, var(--colorPrimary), var(--colorSecondary)) border-box;
         mask: auto;
         -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-          mask-composite: add, add;
-        mask-composite: add, add;
-        mask-composite: add, add;
-        -webkit-mask-composite: exclude;
         mask-composite: exclude;
+        -webkit-mask-composite: clear;
+        mask-composite: clear;
       }
       .technos__rollover {
         display: flex;

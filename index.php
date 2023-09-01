@@ -38,45 +38,45 @@
     <div class="container">
         <h3 class="section__title">Portfolio</h3>
         <div>
-            <div class="portfolio__filter">
+            <!-- <div class="portfolio__filter">
                 <button class="btn btn--secondary current" data-filter="all">Tout</button>
                 <button class="btn btn--secondary" data-filter="pro">Pros (en agence)</button>
                 <button class="btn btn--secondary" data-filter="perso">Persos</button>
-            </div>
+            </div> -->
             <div class="portfolio__wrapper">
                 <a href="https://www.journaldelagence.com" target="_blank" class="portfolio__item" data-type="pro">
                     <span class="portfolio__link">
                         <img src="/assets/img/portfolio/jda.png" alt="Projet Journal de l'agence">
                     </span>
-                    <span class="portfolio__item__subttl">Wordpress &bull; SASS</span>
+                    <span class="portfolio__item__subttl">Techno &bull; Techno</span>
                 </a>
                 <div class="portfolio__item portfolio__item--divider"></div>
                 <a href="https://www.hectoria.com" target="_blank" class="portfolio__item" data-type="pro">
                     <span class="portfolio__link">
                         <img src="/assets/img/portfolio/hectoria.png" alt="Projet Hectoria">
                     </span>
-                    <span class="portfolio__item__subttl">PHP &bull; Javascript &bull; SASS</span>
+                    <span class="portfolio__item__subttl">Techno &bull; Techno &bull; Techno</span>
                 </a>
                 <div class="portfolio__item portfolio__item--divider"></div>
                 <a href="https://www.donbastineo.fr" target="_blank" class="portfolio__item" data-type="pro">
                     <span class="portfolio__link">
                         <img src="/assets/img/portfolio/donBastineo.png" alt="Projet Don Bastineo">
                     </span>
-                    <span class="portfolio__item__subttl">Javascript &bull; Prestashop &bull; SASS</span>
+                    <span class="portfolio__item__subttl">Techno &bull; Techno &bull; Techno</span>
                 </a>
                 <div class="portfolio__item portfolio__item--divider"></div>
                 <a href="/" target="_blank" class="portfolio__item" data-type="perso">
                     <span class="portfolio__link">
                         <img src="/assets/img/portfolio/proventil33.png" alt="Projet Proventil33">
                     </span>
-                    <span class="portfolio__item__subttl">Wordpress &bull; SASS</span>
+                    <span class="portfolio__item__subttl">Techno &bull; Techno</span>
                 </a>
                 <div class="portfolio__item portfolio__item--divider"></div>
                 <a href="/" target="_blank" class="portfolio__item" data-type="perso">
                     <span class="portfolio__link">
                         <img src="/assets/img/portfolio/proventil33.png" alt="Projet CupcakeAgency">
                     </span>
-                    <span class="portfolio__item__subttl">PHP &bull; Wordpress &bull; SASS</span>
+                    <span class="portfolio__item__subttl">Techno &bull; Techno &bull; Techno</span>
                 </a>
                 <div class="portfolio__item portfolio__item--divider"></div>
             </div>
