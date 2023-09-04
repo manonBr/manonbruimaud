@@ -943,7 +943,7 @@ nav a {
     font-size: 4.5rem;
   }
   nav {
-    font-size: 1.1rem;
+    font-size: 1rem;
     grid-template-columns: 90px 5fr 120px;
   }
   .logo img {

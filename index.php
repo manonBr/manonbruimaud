@@ -9,7 +9,7 @@
         <h2 class="header__subttl scramble"></h2>
         <p class="header__legend">La curiosité et la patience sont les meilleures qualités que peut posséder un développeur</p>
         <a class="btn btn--primary" href="#contact">Me contacter</a>
-        <a class="btn btn--secondary" href="#portfolio">Télécharger mon CV</a>
+        <a class="btn btn--secondary" href="/assets/CV-Manon_Bruimaud.pdf" target="_blank">Télécharger mon CV</a>
         <div class='bubble bubble--xsmall bubble--primary' data-parallax='-0.9' style="left: 80%; right: 10%; top: 50%"></div>
         <div class='bubble bubble--small bubble--primary' data-parallax='0.5' style="left: 75%; right: 25%; top: 0%"></div>
         <div class='bubble bubble--xsmall bubble--secondary' data-parallax='0.4' style="left: 60%; right: 40%; top: 0%"></div>
