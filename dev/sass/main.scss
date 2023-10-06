@@ -500,67 +500,74 @@ nav {
   .container{
     padding: 5rem 1rem;
   }
-  &__filter {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    .btn {
-      display: inline-block;
-      margin: 0 0.25rem;
-    }
+  .section__title {
+    margin-bottom: -2rem;
+  }
+  .btn {
+    display: inline-block;
+    margin: 0 0.25rem;
   }
   &__wrapper {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
     margin-top: 2rem;
   }
   &__item {
-    padding: 2rem 1rem;
-    border: 1px solid;
-    border-image: linear-gradient(to right, var(--colorPrimary), var(--colorSecondary)) 1;
-    border-right: transparent;
-    border-top: transparent;
-    border-left: transparent;
+    display: block;
     text-align: center;
-    color: var(--colorBase);
-    &:nth-child(4n) {
-      display: none;
-    }
-    &--noBorder {
-      border: none;
-    }
-    &--divider {
-      width: 1px;
-      padding: 0;
-      background-color: var(--colorPrimary);
-    }
-    &:hover,
-    &:active,
-    &:focus {
-      img {
-        -webkit-filter: initial;
-        filter: initial;
-      }
-    }
+    margin-bottom: 2rem;
     &__ttl {
       display: block;
       font-weight: bold;
     }
-    &__subttl {
+    &__description {
+      position: absolute;
+      width: calc(100% - 4rem);
+      height: calc(100% - 4rem);
+      background: rgba(0,0,0,0.9);
+      top: 0;
+      left: 0;
+      padding: 2rem;
+      margin: 0;
+      opacity: 0;
+      text-align: center;
+      color: $white;
+      transition: opacity 0.2s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &__name {
       font-weight: bold;
-      margin-top: 0.5rem;
-      display: inline-block;
+    }
+    &__technos {
+      text-transform: uppercase;
+      color: var(--colorSecondary);
     }
   }
   &__link {
     display: block;
+    position: relative;
+    margin-bottom: 1rem;
+
+    border: 1px solid;
+    border-image: linear-gradient(to right,var(--colorPrimary),var(--colorSecondary)) 1;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    &:hover,
+    &:active,
+    &:focus {
+      .portfolio__item__description {
+        opacity: 1;
+        transition: opacity 0.2s;
+      }
+    }
+    
   }
 
   img {
     display: block;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: transform 0.5s, filter 0.5s;
+    // -webkit-filter: grayscale(100%);
+    // filter: grayscale(100%);
+    // transition: transform 0.5s, filter 0.5s;
   }
 }
 
