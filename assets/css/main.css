@@ -926,6 +926,7 @@ nav a {
     display: block;
     position: absolute;
     border-radius: 50%;
+    will-change: transform;
   }
   .bubble--primary {
     background-color: var(--colorPrimary);
