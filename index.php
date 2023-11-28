@@ -7,9 +7,9 @@
     <div>
         <h1 class="header__title">Manon Bruimaud</h1>
         <h2 class="header__subttl scramble"></h2>
-        <p class="header__legend">La curiosité et la patience sont les meilleures qualités que peut posséder un développeur</p>
-        <a class="btn btn--primary" href="#contact">Me contacter</a>
-        <a class="btn btn--secondary" href="/assets/CV-Manon_Bruimaud.pdf" target="_blank">Télécharger mon CV</a>
+        <p class="header__legend">Diving into subjects, trying to figure out what the answer could be are two of my favorite things.</p>
+        <a class="btn btn--primary" href="#contact">Contact me</a>
+        <a class="btn btn--secondary" href="/assets/CV-Manon_Bruimaud.pdf" target="_blank">Download my resume</a>
         <div class='bubble bubble--xsmall bubble--primary' data-parallax='-0.9' style="left: 80%; right: 10%; top: 50%"></div>
         <div class='bubble bubble--small bubble--primary' data-parallax='0.5' style="left: 75%; right: 25%; top: 0%"></div>
         <div class='bubble bubble--xsmall bubble--secondary' data-parallax='0.4' style="left: 60%; right: 40%; top: 0%"></div>
@@ -23,14 +23,16 @@
     <section class="section presentation reveal" id="presentation">
         <div class="presentation__img">
             <span class="presentation__img__border gradientBorder gradientBorder--topLeft">
-                <img src="/assets/img/portrait.jpg" alt="Manon Bruimaud - Portrait" style="max-width:250px;">
+                <img src="/assets/img/portrait.jpg" alt="Manon Bruimaud - Picture" style="max-width:250px;">
             </span>
         </div>
         <div class="presentation__title">
-            <h3 class="section__title">Présentation</h3>
+            <h3 class="section__title">About me</h3>
         </div>
         <div class="presentation__description">
-            <p>Le développement et les technologies me <span class="emphasized">passionnent</span>, les défis que comportent chaque nouveau projet me stimulent. Autodidacte spécialisée dans le <span class="emphasized">front-end</span>, je maitrise également tout à fait les fondements du développement back-end : PHP, Laravel, POO, etc. À chaque projet, je veille à construire un code optimisé tout en veillant à produire un site répondant aux règles élémentaires d'<span class="emphasized">accessibilités</span>.J'ai pour habitude de travailler avec un outil de versionning tel que <span class="emphasized">GIT</span> ainsi qu'un préprocesseur CSS comme <span class="emphasized">SASS</span>.</p>
+            <p>
+                I love facing new <span class="emphasized">challenges</span> and learn each day something new about IT. I'm a self-taught developer specialized with <span class="emphasized">frontend technologies</span>, even though I'm a former fullstack developer. This way I have an understanding of how server and database work (back then, I used to work with PHP, Laravel and MySQL). My motto is to build <span class="emphasized">accessible</span> and pretty web app, with a codebase easy to maintain in the future. I'm eager to learn every day to improve myself and build better projects. I'm usually working with <span class="emphasized">GIT</span> and <span class="emphasized">SASS</span> on every projects.
+            </p>
         </div>
     </section>
 </div>
@@ -41,26 +43,26 @@
             <div class="portfolio__wrapper">
                 <div class="portfolio__item">
                     <a href="https://www.manonbgabrielle.fr" target="_blank" class="portfolio__link">
-                        <img src="/assets/img/portfolio/manonbgabrielle.jpg" alt="Mon site internet d'auteure">
+                        <img src="/assets/img/portfolio/manonbgabrielle.jpg" alt="My website as a unpublished author">
                         <div class="portfolio__item__description">
                             <p class="portfolio__item__name">manonbgabrielle.fr</p>
-                            <p class="portfolio__item__content">Projet personnelle. Création d'un site internet pour mon activité d'auteure non-publiée.</p>
+                            <p class="portfolio__item__content">Personnal website as a unpublished author.</p>
                             <p class="portfolio__item__technos">ReactJs &bull; NodeJS &bull; MongoDB</p>
                         </div>
                     </a>
                     <a class="btn btn--primary" href="https://github.com/manonBr/manonautrice" target="_blank">GitHub</a>
-                    <a class="btn btn--secondary" href="https://www.manonbgabrielle.fr" target="_blank">Site internet</a>
+                    <a class="btn btn--secondary" href="https://www.manonbgabrielle.fr" target="_blank">Website</a>
                 </div>
                 <div class="portfolio__item">
                     <a href="https://www.journaldelagence.com" target="_blank" class="portfolio__link">
-                        <img src="/assets/img/portfolio/jda.jpg" alt="Projet Journal de l'agence">
+                        <img src="/assets/img/portfolio/jda.jpg" alt="Project 'Journal de l'agence'">
                         <div class="portfolio__item__description">
                             <p class="portfolio__item__name">journaldelagence.fr</p>
-                            <p class="portfolio__item__content">Site internet réalisé en agence. J'ai été en charge de l'intégration de la maquette et de la création intégrale du template.</p>
+                            <p class="portfolio__item__content">Website realized in my previous job. I was in charge of the all project, from start to finish.</p>
                             <p class="portfolio__item__technos">Wordpress &bull; PHP &bull; Sass</p>
                         </div>
                     </a>
-                    <a class="btn btn--secondary" href="https://www.journaldelagence.com" target="_blank">Site internet</a>
+                    <a class="btn btn--secondary" href="https://www.journaldelagence.com" target="_blank">Website</a>
                 </div>
             </div>
         </div>
@@ -68,13 +70,9 @@
 </section>
 <div class="container">
     <section class="section technos reveal" id="technos">
-        <h3 class="section__title">Technos</h3>
+        <h3 class="section__title">Skills</h3>
         <div class="technos__wrapper">
             <span class="technos__subttl">Dev</span>
-            <div class="technos__item">
-                <img src="/assets/img/technos/js-withoutborder.png" alt="Javascript">
-                <span class="technos__rollover">Javascript</span>
-            </div>
             <div class="technos__item">
                 <img src="/assets/img/technos/react-withoutborder.png" alt="React">
                 <span class="technos__rollover">React</span>
@@ -129,8 +127,8 @@
         </div>
     </section>
     <section class="section contact" id="contact">
-        <h3 class="section__title">Me contacter</h3>
-        <p class="contact__text">N'hésitez pas à me contacter, je serai ravie d'échanger avec vous !</p>
+        <h3 class="section__title">Contact</h3>
+        <p class="contact__text">Please feel free to send me an email. It would be a pleasure to get in touch!</p>
         <a class="contact__email"></a>
     </section>
 
