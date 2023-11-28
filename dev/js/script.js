@@ -154,7 +154,7 @@ const element = document.querySelector(".scramble");
 window.onload = () => {
     setTimeout(() => {
         new TextScramble(element).setText(sentence)
-    }, 500)
+    }, 300)
     const email = document.querySelector(".contact__email");
     email.setAttribute("href", "mailto:manon.bruimaud@gmail.com"), (email.innerText = "manon.bruimaud@gmail.com");
 }
