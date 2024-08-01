@@ -7,7 +7,7 @@
     <div>
         <h1 class="header__title">Manon Bruimaud</h1>
         <h2 class="header__subttl scramble"></h2>
-        <p class="header__legend">Diving into subjects, trying to figure out what the answer could be are two of my favorite things.</p>
+        <p class="header__legend">Diving into subjects and trying to figure out what the answer could be are two of my favorite things.</p>
         <a class="btn btn--primary" href="#contact">Contact me</a>
         <a class="btn btn--secondary" href="/assets/CV-Manon_Bruimaud.pdf" target="_blank">Download my resume</a>
         <div class='bubble bubble--xsmall bubble--primary' data-parallax='-0.9' style="left: 80%; right: 10%; top: 50%"></div>
