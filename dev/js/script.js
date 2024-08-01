@@ -94,7 +94,7 @@ Parallax.bind()
 
 
 // SCRUMBLE ANIMATION SUBTITLE
-const sentence = "Frontend developer (React)";
+const sentence = "Fullstack developer (Laravel & ReactJS)";
 class TextScramble {
     constructor(element) {
         this.element = element

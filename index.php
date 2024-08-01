@@ -31,7 +31,7 @@
         </div>
         <div class="presentation__description">
             <p>
-                I love facing new <span class="emphasized">challenges</span> and learn each day something new about IT. I'm a self-taught developer specialized with <span class="emphasized">frontend technologies</span>, even though I'm a former fullstack developer. This way I have an understanding of how server and database work (back then, I used to work with PHP, Laravel and MySQL). My motto is to build <span class="emphasized">accessible</span> and pretty web app, with a codebase easy to maintain in the future. I'm eager to learn every day to improve myself and build better projects. I'm usually working with <span class="emphasized">GIT</span> and <span class="emphasized">SASS</span> on every projects.
+                I love facing new <span class="emphasized">challenges</span> and learn each day something new about IT. I'm a self-taught developer specialized with <span class="emphasized">PHP</span> and <span class="emphasized">Javascript</span>. As a fullstack developer, I have an understanding of how server and database work, and I'm used to work with various technologies : PHP, MySQL, Laravel, ReactJS, NodeJS, etc. My motto is to build <span class="emphasized">accessible</span> and pretty web app, with a codebase easy to maintain. I'm eager to learn every day to improve myself and build better projects. I'm usually working with <span class="emphasized">GIT</span> on every projects.
             </p>
         </div>
     </section>
