@@ -65,8 +65,8 @@
                             <p class="portfolio__item__technos">Laravel &bull; SQL &bull; Npm</p>
                         </div>
                     </a>
-                    <a class="btn btn--primary" href="https://github.com/manonBr/manonautrice" target="_blank">GitHub</a>
-                    <a class="btn btn--secondary" href="https://www.manonbgabrielle.fr" target="_blank">Website</a>
+                    <a class="btn btn--primary" href="https://github.com/manonBr/Saas-tradefairs" target="_blank">GitHub</a>
+                    <a class="btn btn--secondary" href="https://saas-tradefairs.manonbruimaud.fr" target="_blank">Website</a>
                 </div>
                 <div class="portfolio__item">
                     <a href="https://www.journaldelagence.com" target="_blank" class="portfolio__link">
